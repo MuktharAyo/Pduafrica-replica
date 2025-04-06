@@ -1,0 +1,4 @@
+[[redirect]]
+from = "/*"
+to = "/Pdu.html"
+status = 200

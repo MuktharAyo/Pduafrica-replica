@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #222;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+section h1 {
+  font-size: 36px;
+  font-weight: 800;
+  font-family: "montserrat";
+  margin: 0 !important;
+  max-width: 600px;
+}
+section p,
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "jost";
+  color: rgb(84, 89, 95);
+}
+header {
+  background: rgb(252, 246, 242);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header h1 {
+  font-size: 36px;
+  font-family: "nosifer";
+  font-weight: 500;
+  margin: 0;
+}
+span {
+  color: rgb(225, 108, 15);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  font-family: "montserrat";
+}
+.hero-section .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.hero-section .img {
+  background-color: transparent;
+  border: 1px solid rgb(225, 108, 15);
+  padding: 20px;
+  max-height: 100%;
+  max-width: 600px;
+}
+.hero-section .img img {
+  height: 100%;
+  width: 100%;
+}
+button {
+  background: rgb(176, 85, 11);
+  border: none;
+  border-radius: px;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: montserrat;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: rgb(233, 127, 41);
+}
+.mid {
+  text-align: center;
+}
+.mid h4 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "nosifer";
+}
+.sub-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: "montserrat";
+  margin: 30px 0;
+}
+.sub-hero-section .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.sub-hero-section .img img {
+  width: 200px;
+  height: auto;
+}
+.checkbox-info {
+  border: 1px solid #e16c0f;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "roboto";
+  color: rgb(84, 89, 95);
+  margin-top: 30px;
+}
+.input {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.input i {
+  color: #e16c0f;
+  font-size: 26px;
+}
+.input p {
+  margin: 0 !important;
+  line-height: 1.5;
+}
+.other-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0;
+}
+.other-sub-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+}
+.other-sub-section .img img {
+  max-width: 100%;
+  height: auto;
+}
+.form-section {
+    margin: 50px 0 0;
+  padding: 50px 0;
+  background: rgb(252, 246, 242);
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.registration-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "jost";
+  box-sizing: border-box;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+.form-control {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+.form-control:focus {
+  border-color: rgb(176, 85, 11);
+  outline: none;
+}
+.name-group {
+  display: flex;
+  gap: 1rem;
+}
+.name-input {
+  flex: 1;
+}
+.radio-group {
+  margin: 1.5rem 0;
+}
+.radio-options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.radio-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+.btn {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 50px 0;
+}
+footer h1 {
+  font-size: 36px;
+  font-weight: 800;
+  font-family: "montserrat";
+  margin: 0 !important;
+}
+footer p {
+  margin-top: 20px;
+}
