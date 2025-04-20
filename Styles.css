@@ -229,7 +229,15 @@ footer h1 {
   margin: 0 !important;
 }
 footer p {
-  margin-top: 20px;
+  margin: 20px 0 !important;
+}
+footer span{
+  font-family: "montserrat";
+  color: #54595f;
+}
+footer a{
+  font-weight: bold;
+  color: #e16c0f;
 }
 
 /* Responsiveness */
